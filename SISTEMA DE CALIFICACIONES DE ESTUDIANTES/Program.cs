@@ -1,15 +1,14 @@
-namespace SISTEMA_DE_CALIFICACIONES_DE_ESTUDIANTES
+using SISTEMA_DE_CALIFICACIONES_DE_ESTUDIANTES;
+using System;
+using System.Windows.Forms;
+
+namespace SistemaCalificaciones
 {
-    internal static class Program
+    static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
