@@ -2,9 +2,9 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace SistemaCalificaciones
+namespace SISTEMA_DE_CALIFICACIONES_DE_ESTUDIANTES  
 {
-    public class Form1 : Form
+    public partial class Form1 : Form
     {
         private Label lblTitulo;
         private Label lblAlumnos;

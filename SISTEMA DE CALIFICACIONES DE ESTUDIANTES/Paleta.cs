@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace SistemaCalificaciones
+namespace SISTEMA_DE_CALIFICACIONES_DE_ESTUDIANTES
 {
     public static class Paleta
     {

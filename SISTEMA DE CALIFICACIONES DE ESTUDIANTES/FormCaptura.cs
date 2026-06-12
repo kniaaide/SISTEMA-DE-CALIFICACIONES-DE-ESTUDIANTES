@@ -2,9 +2,9 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace SistemaCalificaciones
+namespace SISTEMA_DE_CALIFICACIONES_DE_ESTUDIANTES
 {
-    public class FormCaptura : Form
+    public partial class FormCaptura : Form
     {
         private int numAlumnos;
         private int numMaterias;
@@ -23,7 +23,7 @@ namespace SistemaCalificaciones
 
         private Label[] lblMaterias;
         private TextBox[] txtCalificaciones;
-
+       
         private Button btnAnterior;
         private Button btnSiguiente;
         private Button btnFinalizar;
@@ -40,6 +40,8 @@ namespace SistemaCalificaciones
             InitializeComponent();
             MostrarAlumno(indiceActual);
         }
+       
+       
 
         private void InitializeComponent()
         {
@@ -201,6 +203,7 @@ namespace SistemaCalificaciones
 
             return true;
         }
+
 
         private void BtnAnterior_Click(object sender, EventArgs e)
         {

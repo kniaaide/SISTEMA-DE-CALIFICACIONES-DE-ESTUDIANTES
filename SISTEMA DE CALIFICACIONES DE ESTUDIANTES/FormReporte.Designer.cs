@@ -1,6 +1,6 @@
 ﻿namespace SISTEMA_DE_CALIFICACIONES_DE_ESTUDIANTES
 {
-    partial class Form1
+    partial class FormReporte
     {
         /// <summary>
         ///  Required designer variable.
